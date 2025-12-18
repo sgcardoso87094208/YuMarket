@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuMarket - Supermercado online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">Yu<span>Market</span></div>
+
+        <nav class="main-nav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="#categorias">Categorías</a>
+            <a href="#ofertas">Ofertas</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="cart">
+            🛒 <span>0</span>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Banner principal -->
+        <section class="hero">
+            <h1>Tu compra online, rápida y sencilla</h1>
+            <p>En YuMarket encuentras todo lo que necesitas sin complicaciones.</p>
+            <a href="#categorias" class="btn">Ver categorías</a>
+        </section>
+
+        <!-- Categorías -->
+        <section id="categorias" class="section">
+            <h2>Categorías</h2>
+            <p>Haz clic en una categoría para abrir su página con los productos.</p>
+
+            <div class="category-grid">
+                <a href="frutas-verduras.html" class="category-card">
+                    <h3>Frutas y verduras</h3>
+                    <p>Productos frescos y de temporada.</p>
+                </a>
+
+                <a href="bebidas.html" class="category-card">
+                    <h3>Bebidas</h3>
+                    <p>Refrescos, aguas, zumos y más.</p>
+                </a>
+
+                <a href="despensa.html" class="category-card">
+                    <h3>Despensa</h3>
+                    <p>Arroz, pasta, legumbres y básicos.</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Productos destacados -->
+        <section id="ofertas" class="section">
+            <h2>Ofertas destacadas</h2>
+
+            <div class="featured-grid">
+                <!-- Producto destacado 1 -->
+                <article class="product-card">
+                    <h3>Pack Desayuno YuMarket</h3>
+                    <p class="product-price">
+                        <span class="old-price">19,99 €</span>
+                        <span class="new-price">15,99 €</span>
+                    </p>
+                    <p>Incluye café, pan de molde y fruta para empezar bien el día.</p>
+                </article>
+
+                <!-- Producto destacado 2 -->
+                <article class="product-card">
+                    <h3>Caja Fruta de Temporada YuMarket</h3>
+                    <p class="product-price">
+                        <span class="new-price">12,50 €</span>
+                    </p>
+                    <p>Selección de frutas frescas ideal para toda la semana.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Lista sencilla de productos -->
+        <section id="productos" class="section">
+            <h2>Productos</h2>
+
+            <div class="product-list">
+                <article class="product-item">
+                    <h3>Manzana (kg)</h3>
+                    <p>3,20 €</p>
+                </article>
+
+                <article class="product-item">
+                    <h3>Leche entera (1 L)</h3>
+                    <p>1,20 €</p>
+                </article>
+
+                <article class="product-item">
+                    <h3>Arroz (1 kg)</h3>
+                    <p>2,10 €</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contacto sencillo -->
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Para cualquier duda, escribe a <strong>info@yumarket.com</strong></p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2025 YuMarket</p>
+        <p><a href="#">Aviso legal</a> · <a href="#">Política de privacidad</a></p>
+    </footer>
+</body>
+</html>
